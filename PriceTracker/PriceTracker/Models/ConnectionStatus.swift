@@ -6,9 +6,35 @@
 //
 
 import Foundation
+import SwiftUI
 
 enum ConnectionStatus: Equatable, Sendable {
     case disconnected
     case connecting
     case connected
+}
+
+extension ConnectionStatus {
+    var title: LocalizedStringKey {
+        switch self {
+        case .connected: "Connected"
+        case .connecting: "Connecting…"
+        case .disconnected: "Disconnected"
+        }
+    }
+
+     var color: Color {
+        switch self {
+        case .connected: .green
+        case .connecting: .orange
+        case .disconnected: .red
+        }
+    }
+
+    var symbolName: String {
+        switch self {
+        case .connected, .disconnected: "circle.fill"
+        case .connecting: "circle.dotted"
+        }
+    }
 }
