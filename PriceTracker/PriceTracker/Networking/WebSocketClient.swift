@@ -1,13 +1,13 @@
 //
-//  MBPTWebSocketNetworkClient.swift
+//  WebSocketClient.swift
 //  PriceTracker
 //
 //  Created by Ashish Baghel on 14/10/2026.
 //
 import Foundation
 
-// MARK: - WebSocket Client -
-actor MBPTWebSocketNetworkClient: MBPTWebSocketNetworkClientAdapter {
+// MARK: - URL Session WebSocket Client -
+actor WebSocketNetworkClient: WebSocketClientAdapter {
     private let url: URL?
     private let session: URLSession
     private var task: URLSessionWebSocketTask?
@@ -19,8 +19,7 @@ actor MBPTWebSocketNetworkClient: MBPTWebSocketNetworkClientAdapter {
     }
 
     func connect() async {
-        guard task == nil,
-              let url = url else { return }
+        guard task == nil, let url = url else { return }
         let socket = session.webSocketTask(with: url)
         task = socket
         socket.resume()

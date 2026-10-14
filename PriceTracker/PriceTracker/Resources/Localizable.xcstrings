@@ -1,0 +1,588 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "About": {
+      "comment": "Section header above the symbol description",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نبذة"
+          }
+        }
+      }
+    },
+    "Connected": {
+      "comment": "Connection status",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "متصل"
+          }
+        }
+      }
+    },
+    "Connecting…": {
+      "comment": "Connection status",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جارٍ الاتصال…"
+          }
+        }
+      }
+    },
+    "Connection lost. Tap Start to reconnect.": {
+      "comment": "Error shown when the price feed drops",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "انقطع الاتصال. اضغط على «بدء» لإعادة الاتصال."
+          }
+        }
+      }
+    },
+    "Disconnected": {
+      "comment": "Connection status",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "غير متصل"
+          }
+        }
+      }
+    },
+    "Price": {
+      "comment": "Sort option: by price",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "السعر"
+          }
+        }
+      }
+    },
+    "Price Change": {
+      "comment": "Sort option: by price change",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تغيّر السعر"
+          }
+        }
+      }
+    },
+    "Sort by": {
+      "comment": "Label of the sort picker",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ترتيب حسب"
+          }
+        }
+      }
+    },
+    "Start": {
+      "comment": "Button that starts the price feed",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بدء"
+          }
+        }
+      }
+    },
+    "Stocks": {
+      "comment": "Navigation title of the symbols list",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الأسهم"
+          }
+        }
+      }
+    },
+    "Stop": {
+      "comment": "Button that stops the price feed",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إيقاف"
+          }
+        }
+      }
+    },
+    "Symbol not found": {
+      "comment": "Shown when the detail screen has no data for the symbol",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لم يتم العثور على الرمز"
+          }
+        }
+      }
+    },
+    "summary.AAPL": {
+      "comment": "Description of AAPL on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Designs and sells the iPhone, Mac, iPad and Apple Watch, plus services such as the App Store, iCloud and Apple Music."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تصمم وتبيع iPhone وMac وiPad وApple Watch، إلى جانب خدمات مثل App Store وiCloud وApple Music."
+          }
+        }
+      }
+    },
+    "summary.ADBE": {
+      "comment": "Description of ADBE on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Makes creative and document software including Photoshop, Illustrator and Acrobat."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تطوّر برامج التصميم والمستندات، ومنها Photoshop وIllustrator وAcrobat."
+          }
+        }
+      }
+    },
+    "summary.AMD": {
+      "comment": "Description of AMD on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Designs CPUs and GPUs for PCs, gaming consoles and data centers."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تصمم المعالجات المركزية ومعالجات الرسوميات لأجهزة الكمبيوتر ومنصات الألعاب ومراكز البيانات."
+          }
+        }
+      }
+    },
+    "summary.AMZN": {
+      "comment": "Description of AMZN on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Runs a global e-commerce marketplace and Amazon Web Services, the leading cloud infrastructure provider."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تدير سوقًا عالمية للتجارة الإلكترونية وخدمات Amazon Web Services، المزوّد الرائد للبنية التحتية السحابية."
+          }
+        }
+      }
+    },
+    "summary.AVGO": {
+      "comment": "Description of AVGO on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supplies semiconductors and infrastructure software for networking, storage and wireless."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "توفّر أشباه الموصلات وبرمجيات البنية التحتية للشبكات والتخزين والاتصالات اللاسلكية."
+          }
+        }
+      }
+    },
+    "summary.CRM": {
+      "comment": "Description of CRM on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Provides cloud-based customer relationship management software for sales, service and marketing."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "توفّر برمجيات سحابية لإدارة علاقات العملاء في المبيعات والخدمة والتسويق."
+          }
+        }
+      }
+    },
+    "summary.CSCO": {
+      "comment": "Description of CSCO on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Builds networking hardware, security and collaboration software."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تصنع معدات الشبكات وبرمجيات الأمن والتعاون."
+          }
+        }
+      }
+    },
+    "summary.DIS": {
+      "comment": "Description of DIS on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entertainment company with film studios, theme parks, streaming and media networks."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شركة ترفيه تمتلك استوديوهات أفلام ومدن ملاهٍ وخدمات بث وشبكات إعلامية."
+          }
+        }
+      }
+    },
+    "summary.GOOG": {
+      "comment": "Description of GOOG on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parent company of Google, operating Search, YouTube, Android and Google Cloud."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الشركة الأم لـ Google، وتشغّل محرك البحث وYouTube وAndroid وGoogle Cloud."
+          }
+        }
+      }
+    },
+    "summary.IBM": {
+      "comment": "Description of IBM on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Provides hybrid cloud, consulting and enterprise AI services."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تقدّم خدمات السحابة الهجينة والاستشارات والذكاء الاصطناعي للمؤسسات."
+          }
+        }
+      }
+    },
+    "summary.INTC": {
+      "comment": "Description of INTC on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Designs and manufactures processors and other semiconductor products."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تصمم وتصنّع المعالجات ومنتجات أشباه الموصلات الأخرى."
+          }
+        }
+      }
+    },
+    "summary.JPM": {
+      "comment": "Description of JPM on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Largest US bank, offering consumer banking, investment banking and asset management."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أكبر بنك في الولايات المتحدة، يقدّم الخدمات المصرفية للأفراد والخدمات المصرفية الاستثمارية وإدارة الأصول."
+          }
+        }
+      }
+    },
+    "summary.KO": {
+      "comment": "Description of KO on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Makes and markets non-alcoholic beverages sold in more than 200 countries."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تصنع وتسوّق المشروبات غير الكحولية التي تُباع في أكثر من 200 دولة."
+          }
+        }
+      }
+    },
+    "summary.MA": {
+      "comment": "Description of MA on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Operates a worldwide payments network and related data services."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تشغّل شبكة مدفوعات عالمية وخدمات بيانات مرتبطة بها."
+          }
+        }
+      }
+    },
+    "summary.META": {
+      "comment": "Description of META on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Owns Facebook, Instagram, WhatsApp and Messenger, and invests heavily in AI and mixed reality."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تمتلك Facebook وInstagram وWhatsApp وMessenger، وتستثمر بكثافة في الذكاء الاصطناعي والواقع المختلط."
+          }
+        }
+      }
+    },
+    "summary.MSFT": {
+      "comment": "Description of MSFT on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Makes Windows and Office and runs Azure, one of the largest cloud computing platforms in the world."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تطوّر Windows وOffice وتدير Azure، إحدى أكبر منصات الحوسبة السحابية في العالم."
+          }
+        }
+      }
+    },
+    "summary.NFLX": {
+      "comment": "Description of NFLX on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Operates a subscription streaming service for films, series and games."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تدير خدمة بث بالاشتراك للأفلام والمسلسلات والألعاب."
+          }
+        }
+      }
+    },
+    "summary.NVDA": {
+      "comment": "Description of NVDA on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Designs GPUs and accelerated computing platforms used for gaming, data centers and AI training."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تصمم معالجات الرسوميات ومنصات الحوسبة المسرّعة المستخدمة في الألعاب ومراكز البيانات وتدريب الذكاء الاصطناعي."
+          }
+        }
+      }
+    },
+    "summary.ORCL": {
+      "comment": "Description of ORCL on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Provides database software, enterprise applications and cloud infrastructure."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "توفّر برمجيات قواعد البيانات وتطبيقات المؤسسات والبنية التحتية السحابية."
+          }
+        }
+      }
+    },
+    "summary.PYPL": {
+      "comment": "Description of PYPL on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Operates digital payment platforms including PayPal and Venmo."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تدير منصات للمدفوعات الرقمية، منها PayPal وVenmo."
+          }
+        }
+      }
+    },
+    "summary.QCOM": {
+      "comment": "Description of QCOM on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Develops mobile chipsets and wireless technology, licensing patents used in most smartphones."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تطوّر شرائح الهواتف المحمولة وتقنيات الاتصال اللاسلكي، وترخّص براءات اختراع تستخدمها معظم الهواتف الذكية."
+          }
+        }
+      }
+    },
+    "summary.SHOP": {
+      "comment": "Description of SHOP on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Provides a commerce platform for merchants to run online and in-person stores."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "توفّر منصة تجارة تتيح للتجار إدارة متاجرهم عبر الإنترنت وعلى أرض الواقع."
+          }
+        }
+      }
+    },
+    "summary.TSLA": {
+      "comment": "Description of TSLA on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manufactures electric vehicles, battery storage systems and solar products."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تصنّع السيارات الكهربائية وأنظمة تخزين الطاقة بالبطاريات ومنتجات الطاقة الشمسية."
+          }
+        }
+      }
+    },
+    "summary.UBER": {
+      "comment": "Description of UBER on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Runs ride-hailing, food delivery and freight platforms worldwide."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تدير منصات لطلب الرحلات وتوصيل الطعام والشحن حول العالم."
+          }
+        }
+      }
+    },
+    "summary.V": {
+      "comment": "Description of V on the detail screen",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Runs a global card payments network connecting consumers, merchants and banks."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تدير شبكة عالمية لمدفوعات البطاقات تربط المستهلكين والتجار والبنوك."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
