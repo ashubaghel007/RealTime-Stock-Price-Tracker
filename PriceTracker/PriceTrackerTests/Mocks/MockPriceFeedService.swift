@@ -9,7 +9,7 @@ import Foundation
 @testable import PriceTracker
 
 /// Lets a test push price updates by hand through `continuation`.
-final class MockPriceFeedService: PriceFeedService {
+final class MockPriceFeedService: PriceFeedServiceAdapter {
     let stream: AsyncThrowingStream<PriceUpdate, Error>
     let continuation: AsyncThrowingStream<PriceUpdate, Error>.Continuation
 

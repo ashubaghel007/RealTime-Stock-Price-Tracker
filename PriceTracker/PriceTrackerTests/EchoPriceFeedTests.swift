@@ -1,5 +1,5 @@
 //
-//  EchoPriceFeedTests.swift
+//  EchoPriceFeedServiceTests.swift
 //  PriceTracker
 //
 //  Created by Ashish Baghel on 14/10/2026.
@@ -8,12 +8,12 @@
 import XCTest
 @testable import PriceTracker
 
-final class EchoPriceFeedTests: XCTestCase {
+final class EchoPriceFeedServiceTests: XCTestCase {
 
     private let initialPrices = ["AAA": 100.0, "BBB": 50.0]
 
-    private func makeSUT(client: MockWebSocketClient) -> EchoPriceFeed {
-        EchoPriceFeed(client: client, initialPrices: initialPrices, interval: .milliseconds(10))
+    private func makeSUT(client: MockWebSocketClient) -> EchoPriceFeedService {
+        EchoPriceFeedService(client: client, initialPrices: initialPrices, interval: .milliseconds(10))
     }
 
     /// Reads exactly `count` updates from the stream.

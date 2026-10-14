@@ -32,9 +32,9 @@ final class SymbolListViewModel {
     var sortOption: SortOption = .price
 
     @ObservationIgnored private var feedTask: Task<Void, Never>?
-    private let feedService: any PriceFeedService
+    private let feedService: any PriceFeedServiceAdapter
 
-    init(feedService: any PriceFeedService, stocks: [Stock] = Stock.catalog) {
+    init(feedService: any PriceFeedServiceAdapter, stocks: [Stock] = Stock.catalog) {
         self.feedService = feedService
         self.stocksBySymbol = Dictionary(uniqueKeysWithValues: stocks.map { ($0.symbol, $0) })
     }

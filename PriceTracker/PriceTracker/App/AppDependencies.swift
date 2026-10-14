@@ -9,10 +9,10 @@ import Foundation
 
 /// Composition root: the only place that knows about concrete types.
 struct AppDependencies {
-    let priceFeedService: any PriceFeedService
+    let priceFeedService: any PriceFeedServiceAdapter
 
     static var live: AppDependencies {
-        let feed = EchoPriceFeed(
+        let feed = EchoPriceFeedService(
             client: WebSocketNetworkClient(url: AppConstants.PriceFeed.url),
             initialPrices: Dictionary(uniqueKeysWithValues: Stock.catalog.map { ($0.symbol, $0.price) }),
             interval: AppConstants.PriceFeed.updateInterval
