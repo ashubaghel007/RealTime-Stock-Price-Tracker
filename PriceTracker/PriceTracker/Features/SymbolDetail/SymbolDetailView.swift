@@ -8,11 +8,7 @@
 import SwiftUI
 
 struct SymbolDetailView: View {
-    @State private var viewModel: SymbolDetailViewModel
-
-    init(viewModel: SymbolDetailViewModel) {
-        _viewModel = State(initialValue: viewModel)
-    }
+    let viewModel: SymbolDetailViewModel 
 
     var body: some View {
         Group {

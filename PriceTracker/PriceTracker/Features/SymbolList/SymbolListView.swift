@@ -11,7 +11,7 @@ struct SymbolListView: View {
     @State private var viewModel: SymbolListViewModel
 
     init(viewModel: SymbolListViewModel) {
-        _viewModel = State(initialValue: viewModel)
+        self.viewModel = viewModel
     }
 
     var body: some View {

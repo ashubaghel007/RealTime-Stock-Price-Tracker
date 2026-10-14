@@ -9,13 +9,11 @@ import SwiftUI
 
 @main
 struct PriceTrackerApp: App {
-    @State private var viewModel = SymbolListViewModel(
-        feedService: AppDependencies.live.priceFeedService
-    )
-
     var body: some Scene {
         WindowGroup {
-            SymbolListView(viewModel: viewModel)
+            SymbolListView(viewModel: SymbolListViewModel(
+                feedService: AppDependencies.live.priceFeedService
+            ))
         }
     }
 }
