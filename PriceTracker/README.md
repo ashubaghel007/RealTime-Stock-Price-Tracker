@@ -170,3 +170,8 @@ PriceTrackerTests/
 - Reconnect automatically with backoff after a dropped connection.
 - Persist the last known prices so the list isn't stale on launch.
 - A sparkline of recent prices on the detail screen.
+
+<img width="400" height="1000" alt="Simulator Screenshot - iPhone 17 Pro - 2026-10-15 at 01 49 32" src="https://github.com/user-attachments/assets/58dc1bd4-2c79-49dc-b88d-e85924ac3c85" />
+<img width="400" height="1000" alt="Simulator Screenshot - iPhone 17 Pro - 2026-10-15 at 01 49 27" src="https://github.com/user-attachments/assets/9c57e20f-60eb-41bb-9ee0-58ad40038e63" />
+<img width="400" height="1000" alt="Simulator Screenshot - iPhone 17 Pro - 2026-10-15 at 01 49 23" src="https://github.com/user-attachments/assets/e430bf83-bf7f-42e1-8135-0fbc34e73801" />
+
