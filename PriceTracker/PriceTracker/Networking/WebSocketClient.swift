@@ -12,7 +12,7 @@ actor WebSocketNetworkClient: WebSocketClientAdapter {
     private let session: URLSession
     private var task: URLSessionWebSocketTask?
 
-    init(url: URL? = URL(string: "wss://ws.postman-echo.com/raw"),
+    init(url: URL? = AppConstants.PriceFeed.url,
          session: URLSession = .shared) {
         self.url = url
         self.session = session
