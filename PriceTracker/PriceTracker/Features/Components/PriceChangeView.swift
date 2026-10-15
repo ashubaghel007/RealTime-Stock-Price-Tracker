@@ -13,26 +13,10 @@ struct PriceChangeView: View {
 
     var body: some View {
         HStack(spacing: 4) {
-            Image(systemName: iconName)
+            Image(systemName: stock.direction.iconName)
             Text(abs(stock.changePercent), format: .percent.precision(.fractionLength(2)))
                 .monospacedDigit()
         }
-        .foregroundStyle(color)
-    }
-
-    private var iconName: String {
-        switch stock.direction {
-        case .up: "arrowtriangle.up.fill"
-        case .down: "arrowtriangle.down.fill"
-        case .unchanged: "minus"
-        }
-    }
-
-    private var color: Color {
-        switch stock.direction {
-        case .up: .green
-        case .down: .red
-        case .unchanged: .secondary
-        }
+        .foregroundStyle(stock.direction.color)
     }
 }

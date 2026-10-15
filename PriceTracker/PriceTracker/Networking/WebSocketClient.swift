@@ -10,7 +10,7 @@ import Foundation
 actor WebSocketNetworkClient: WebSocketClientAdapter {
     private let url: URL?
     private let session: URLSession
-    private var task: URLSessionWebSocketTask?
+    private var webSocketTask: URLSessionWebSocketTask?
 
     init(url: URL? = AppConstants.PriceFeed.url,
          session: URLSession = .shared) {
@@ -19,20 +19,25 @@ actor WebSocketNetworkClient: WebSocketClientAdapter {
     }
 
     func connect() async {
-        guard task == nil, let url = url else { return }
-        let socket = session.webSocketTask(with: url)
-        task = socket
-        socket.resume()
+        guard webSocketTask == nil,
+              let url = url else { return }
+        let wsTask = session.webSocketTask(with: url)
+        webSocketTask = wsTask
+        wsTask.resume()
     }
 
     func send(_ data: Data) async throws {
-        guard let task else { throw URLError(.notConnectedToInternet) }
-        try await task.send(.string(String(decoding: data, as: UTF8.self)))
+        guard let webSocketTask else {
+            throw URLError(.notConnectedToInternet)
+        }
+        try await webSocketTask.send(.string(String(decoding: data, as: UTF8.self)))
     }
 
     func receive() async throws -> Data {
-        guard let task else { throw URLError(.notConnectedToInternet) }
-        switch try await task.receive() {
+        guard let webSocketTask else {
+            throw URLError(.notConnectedToInternet)
+        }
+        switch try await webSocketTask.receive() {
         case .string(let text): return Data(text.utf8)
         case .data(let data): return data
         @unknown default: throw URLError(.cannotParseResponse)
@@ -40,7 +45,7 @@ actor WebSocketNetworkClient: WebSocketClientAdapter {
     }
 
     func disconnect() async {
-        task?.cancel(with: .goingAway, reason: nil)
-        task = nil
+        webSocketTask?.cancel(with: .goingAway, reason: nil)
+        webSocketTask = nil
     }
 }

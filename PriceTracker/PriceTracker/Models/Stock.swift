@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct Stock: Identifiable, Hashable, Sendable {
     let symbol: String
@@ -41,4 +42,22 @@ struct Stock: Identifiable, Hashable, Sendable {
 
 enum PriceDirection: Sendable {
     case up, down, unchanged
+}
+
+extension PriceDirection {
+    var iconName: String {
+        switch self {
+        case .up: "arrowtriangle.up.fill"
+        case .down: "arrowtriangle.down.fill"
+        case .unchanged: "minus"
+        }
+    }
+    
+    var color: Color {
+        switch self {
+        case .up: .green
+        case .down: .red
+        case .unchanged: .secondary
+        }
+    }
 }
