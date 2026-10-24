@@ -101,7 +101,6 @@ final class SymbolListViewModel {
     }
 
     private func feedDidEnd(with error: Error?) {
-        // A cancelled task means the user tapped Stop; state is already up to date.
         guard !Task.isCancelled else { return }
         feedTask = nil
         connectionStatus = .disconnected

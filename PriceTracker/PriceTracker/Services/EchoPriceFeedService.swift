@@ -22,13 +22,13 @@ struct EchoPriceFeedService: PriceFeedServiceAdapter {
 
                     while !Task.isCancelled {
                         let updates = currentPrices.map { symbol, price in
-                            PriceUpdate(symbol: symbol, price: PriceGenerator.nextPrice(from: price))
+                            PriceUpdate(symbol: symbol,
+                                        price: PriceGenerator.nextPrice(from: price))
                         }
                         try await client.send(JSONEncoder().encode(updates))
-                        let echoed = try JSONDecoder().decode(
-                            [PriceUpdate].self,
-                            from: await client.receive()
-                        )
+
+                        let echoed = try JSONDecoder().decode([PriceUpdate].self,
+                                                              from: await client.receive())
 
                         for update in echoed {
                             currentPrices[update.symbol] = update.price

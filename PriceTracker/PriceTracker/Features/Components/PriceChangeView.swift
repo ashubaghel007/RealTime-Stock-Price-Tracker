@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-/// Arrow + percentage change, shared by the list row and the detail screen.
 struct PriceChangeView: View {
     let stock: Stock
 

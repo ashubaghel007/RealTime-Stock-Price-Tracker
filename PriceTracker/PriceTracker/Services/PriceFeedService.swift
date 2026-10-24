@@ -9,7 +9,6 @@ import Foundation
 
 // MARK:  -  Price Feed Service  -
 
-/// The stream's lifetime is the feed's lifetime: cancel the consumer and the feed shuts down.
 protocol PriceFeedServiceAdapter: Sendable {
     func prices() -> AsyncThrowingStream<PriceUpdate, Error>
 }

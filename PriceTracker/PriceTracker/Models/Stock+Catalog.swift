@@ -8,8 +8,6 @@
 import Foundation
 
 extension Stock {
-    /// The 25 symbols tracked by the app, with a starting price for the simulated feed.
-    /// Company names stay in their original form; descriptions come from Localizable.xcstrings.
     static let catalog: [Stock] = [
         Stock(
             symbol: "AAPL",
