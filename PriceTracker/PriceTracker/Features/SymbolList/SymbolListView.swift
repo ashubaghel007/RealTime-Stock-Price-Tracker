@@ -65,7 +65,7 @@ struct SymbolListView: View {
         }
         .padding(.horizontal)
         .padding(.vertical, 8)
-        .background(.bar)
+        .background(.clear)
     }
 }
 

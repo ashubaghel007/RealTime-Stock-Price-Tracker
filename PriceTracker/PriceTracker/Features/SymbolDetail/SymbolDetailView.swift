@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// MARK:  -  SymbolDetailView -
 struct SymbolDetailView: View {
     let viewModel: SymbolDetailViewModel 
 

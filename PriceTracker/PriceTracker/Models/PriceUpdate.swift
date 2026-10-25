@@ -7,6 +7,7 @@
 
 import Foundation
 
+// MARK:  -  PriceUpdate -
 /// Wire format sent to (and echoed back by) the WebSocket server.
 struct PriceUpdate: Codable, Equatable, Sendable {
     let symbol: String

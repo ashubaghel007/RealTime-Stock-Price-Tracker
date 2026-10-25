@@ -7,6 +7,8 @@
 
 import Foundation
 
+// MARK:  -  Stock Catalog -
+
 extension Stock {
     static let catalog: [Stock] = [
         Stock(

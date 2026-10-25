@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+// MARK:  -  ConnectionStatusView -
 struct ConnectionStatusView: View {
     let status: ConnectionStatus
 

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+// MARK:  -  App Dependencies -
 /// Composition root: the only place that knows about concrete types.
 struct AppDependencies {
     let priceFeedService: any PriceFeedServiceAdapter

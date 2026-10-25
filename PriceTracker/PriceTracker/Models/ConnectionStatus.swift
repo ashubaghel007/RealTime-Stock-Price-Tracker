@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+// MARK:  -  ConnectionStatus -
 enum ConnectionStatus: Equatable, Sendable {
     case disconnected
     case connecting

@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+// MARK:  -  Stock -
 struct Stock: Identifiable, Hashable, Sendable {
     let symbol: String
     let name: String
@@ -40,6 +41,7 @@ struct Stock: Identifiable, Hashable, Sendable {
     }
 }
 
+// MARK:  -  PriceDirection -
 enum PriceDirection: Sendable {
     case up, down, unchanged
 }

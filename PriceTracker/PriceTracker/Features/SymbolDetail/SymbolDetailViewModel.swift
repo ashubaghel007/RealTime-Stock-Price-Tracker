@@ -8,6 +8,7 @@
 import Foundation
 import Observation
 
+// MARK:  -  SymbolDetailViewModel -
 /// Reads from the shared feed, so the detail screen updates live with the list.
 @MainActor
 @Observable

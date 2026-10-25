@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// MARK:  -  PriceTrackerApp -
 @main
 struct PriceTrackerApp: App {
     var body: some Scene {

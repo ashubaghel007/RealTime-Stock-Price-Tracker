@@ -8,6 +8,7 @@
 import Foundation
 import Observation
 
+// MARK:  -  SymbolListViewModel -
 /// Owns the price feed and is the single source of truth for prices on every screen.
 @MainActor
 @Observable

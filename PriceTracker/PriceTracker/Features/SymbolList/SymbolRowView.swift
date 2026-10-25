@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// MARK:  -  SymbolRowView -
 struct SymbolRowView: View {
     let stock: Stock
 
