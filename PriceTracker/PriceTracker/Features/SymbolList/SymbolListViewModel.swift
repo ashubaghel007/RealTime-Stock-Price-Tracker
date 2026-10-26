@@ -56,6 +56,10 @@ final class SymbolListViewModel {
     func stock(for symbol: String) -> Stock? {
         stocksBySymbol[symbol]
     }
+    
+    var feedButtonTitle: LocalizedStringResource {
+        isFeedRunning ? "Stop" : "Start"
+    }
 
     // MARK: - Feed control
 

@@ -43,8 +43,6 @@ struct EchoPriceFeedService: PriceFeedServiceAdapter {
                     continuation.finish(throwing: error)
                 }
 
-                // Disconnect inside the feed's own task, after the loop has stopped,
-                // so it can't race with a send/receive that's still in flight.
                 await client.disconnect()
             }
 

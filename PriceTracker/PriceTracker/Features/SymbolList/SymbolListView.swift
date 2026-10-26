@@ -33,7 +33,7 @@ struct SymbolListView: View {
                     ConnectionStatusView(status: viewModel.connectionStatus)
                 }
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button(feedButtonTitle) {
+                    Button(viewModel.feedButtonTitle) {
                         viewModel.toggleFeed()
                     }
                     .buttonStyle(.borderedProminent)
@@ -41,11 +41,6 @@ struct SymbolListView: View {
                 }
             }
         }
-    }
-
-    /// Typed as `LocalizedStringKey` so both titles are looked up in the String Catalog.
-    private var feedButtonTitle: LocalizedStringKey {
-        viewModel.isFeedRunning ? "Stop" : "Start"
     }
 
     private var header: some View {
